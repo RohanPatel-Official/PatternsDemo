@@ -3,7 +3,6 @@ using PatternsDemo.IInfrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace PatternsDemo.Infrastructure
 {
@@ -23,7 +22,7 @@ namespace PatternsDemo.Infrastructure
         {
             return entities.AsEnumerable();
         }
-        
+
         public void Insert(T entity)
         {
             if (entity == null)

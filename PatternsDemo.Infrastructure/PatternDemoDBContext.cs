@@ -1,8 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PatternsDemo.Domain.DBModels;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace PatternsDemo.Infrastructure
 {
@@ -13,7 +10,7 @@ namespace PatternsDemo.Infrastructure
         {
         }
 
-        public DbSet<Users> User { get; set; }
+        public DbSet<Users> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

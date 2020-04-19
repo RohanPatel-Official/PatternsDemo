@@ -1,10 +1,9 @@
 ﻿using PatternsDemo.Domain.DBModels;
-using System;
 
 namespace PatternsDemo.IBusiness
 {
-    public interface IUsers
+    public interface IBUsers
     {
-        Users GetUseryById(Guid id);
+        Users GetUseryById(int id);
     }
 }

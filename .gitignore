@@ -338,3 +338,5 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/PatternsDemo.Factory.API
+/PatternsDemo.Mediator.API
